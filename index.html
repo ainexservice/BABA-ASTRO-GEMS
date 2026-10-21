@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#17372e">
+  <title>BABA ASTRO GEMS | Gemstones, Jewellery & Rudraksha</title>
+  <meta name="description" content="Explore the BABA ASTRO GEMS gemstone, jewellery and Rudraksha catalogue. Contact our team on WhatsApp for real item photographs, current price and availability.">
+  <meta name="robots" content="index,follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar">GEMSTONES • JEWELLERY • RUDRAKSHA <span>Product enquiries welcome worldwide</span></div>
+  <header class="header" id="top">
+    <button class="mobile-menu" id="mobileMenu" type="button" aria-label="Open menu" aria-controls="nav" aria-expanded="false">☰</button>
+    <a class="brand" href="#top" aria-label="BABA ASTRO GEMS home">
+     
+      <span class="brand-fallback"></span><span><b data-brand-name>BABA ASTRO GEMS</b><small>GEMSTONES • JEWELLERY</small></span></span>
+    </a>
+    <form class="search" id="searchForm" role="search">
+      <input id="searchInput" type="search" placeholder="Search gemstones, jewellery, SKU…" aria-label="Search products">
+      <button type="submit" aria-label="Search">⌕</button>
+    </form>
+    <div class="header-actions">
+      <button id="wishlistBtn" type="button" aria-label="Open wishlist"> <span>Wishlist</span></button>
+      <button id="cartBtn" type="button" aria-label="Open enquiry list"> <span>Enquiry list</span> <i id="cartCount">0</i></button>
+    </div>
+  </header>
+
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <a href="#top" data-category="All">Home</a>
+    <div class="nav-dropdown">
+      <a href="#catalog" id="gemstonesMenuLink" aria-haspopup="true" aria-expanded="false">Gemstones ▾</a>
+      <div class="mega">
+        <section><h4>VEDIC / RASHI RATNA</h4><a href="#catalog" data-search="Blue Sapphire">Blue Sapphire (Neelam)</a><a href="#catalog" data-search="Cat's Eye">Cat's Eye (Lehsunia)</a><a href="#catalog" data-search="Emerald">Emerald (Panna)</a><a href="#catalog" data-search="Hessonite">Hessonite (Gomed)</a><a href="#catalog" data-search="Pearl">Pearl (Moti)</a><a href="#catalog" data-search="Ruby">Ruby (Manik)</a><a href="#catalog" data-search="Red Coral">Red Coral (Moonga)</a><a href="#catalog" data-search="Yellow Sapphire">Yellow Sapphire (Pukhraj)</a></section>
+        <section><h4>POPULAR GEMSTONES</h4><a href="#catalog" data-search="Amethyst">Amethyst</a><a href="#catalog" data-search="Citrine">Citrine</a><a href="#catalog" data-search="Garnet">Garnet</a><a href="#catalog" data-search="Opal">Opal</a><a href="#catalog" data-search="Peridot">Peridot</a><a href="#catalog" data-search="Turquoise">Turquoise</a><a href="#catalog" data-search="Tanzanite">Tanzanite</a></section>
+        <section><h4>JEWELLERY & ACCESSORIES</h4><a href="#catalog" data-category="Rings">Rings</a><a href="#catalog" data-category="Pendants">Pendants</a><a href="#catalog" data-category="Necklaces">Necklaces</a><a href="#catalog" data-category="Earrings">Earrings</a><a href="#catalog" data-category="Bracelets">Bracelets</a><a href="#catalog" data-category="Beads & Accessories">Beads & Accessories</a></section>
+        <section><h4>EXPLORE</h4><a href="#zodiac">Navratna collection</a><a href="#catalog" data-category="Rudraksha">Rudraksha</a><a href="#catalog" data-category="All">View all listings →</a></section>
+      </div>
+    </div>
+    <a href="#catalog" data-category="Rings">Rings</a><a href="#catalog" data-category="Pendants">Pendants</a><a href="#catalog" data-category="Earrings">Earrings</a><a href="#catalog" data-category="Rudraksha">Rudraksha</a><a href="#zodiac">Navratna</a>
+  </nav>
+
+  <main>
+    <section class="hero" aria-labelledby="heroTitle">
+      <img class="hero-banner" data-brand-banner src="assets/branding/banner.png" alt="" aria-hidden="true">
+      <div class="hero-copy">
+        <p class="eyebrow">A THOUGHTFUL GEMSTONE DESTINATION</p>
+        <h1 id="heroTitle">Discover your next <em>precious</em> find.</h1>
+        <p>Explore gemstones, traditional Navratna, jewellery and Rudraksha. Contact our team for the actual item photographs, current prices, availability and specifications before you order.</p>
+        <div class="hero-buttons"><a class="btn gold" href="#catalog">Explore catalogue</a></div>
+        <div class="trust"><span>✦ Individual product enquiries</span><span>✦ WhatsApp order assistance</span><span>✦ Details confirmed before purchase</span></div>
+      </div>
+      <div class="hero-photo-panel" id="heroPhotoPanel" hidden>
+        <img data-hero-photo src="assets/branding/banner.png" alt="Actual BABA ASTRO GEMS product photograph">
+      </div>
+    </section>
+
+    <section class="section" id="zodiac">
+      <div class="section-heading"><p class="eyebrow">TRADITIONAL COLLECTION</p><h2>Explore the Navratna</h2><p>Browse the nine traditional gemstone names and enquire for actual item photographs.</p></div>
+      <div class="navratna-image-slot" id="navratnaBannerSlot" hidden><img data-navratna-image src="assets/branding/navratna.png" alt="Actual BABA ASTRO GEMS Navratna collection photograph"></div>
+      <div class="navratna-grid" id="navratnaGrid" aria-label="Browse Navratna gemstones"></div>
+    </section>
+
+    <section class="section catalog-section" id="catalog">
+      <div class="section-heading"><p class="eyebrow">THE BABA ASTRO GEMS COLLECTION</p><h2>Browse the catalogue</h2><p id="resultCount">Browse catalogue listings</p></div>
+      
+      <div class="catalog-tools"><div class="chips" id="categoryChips" aria-label="Filter by product category"></div><div class="filters"><select id="sort" aria-label="Sort products"><option value="featured">Featured</option><option value="az">Name: A–Z</option></select></div></div>
+      <div class="product-grid" id="productGrid"></div>
+      <div class="load-row"><button class="btn outline" id="loadMore" type="button">Load more listings</button></div>
+    </section>
+  </main>
+
+
+  <a class="floating-whatsapp" data-contact-whatsapp href="https://wa.me/919519608505" target="_blank" rel="noopener noreferrer" aria-label="Contact BABA ASTRO GEMS on WhatsApp">☏ <span>WhatsApp us</span></a>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="modal-backdrop" id="modalBackdrop" role="presentation"><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="modalClose" type="button" aria-label="Close dialog">×</button><div id="modalContent"></div></section></div>
+
+  <script src="site-config.js"></script><script src="products.js"></script><script src="app.js"></script>
+</body>
+</html>
